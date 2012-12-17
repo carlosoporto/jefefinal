@@ -23,6 +23,12 @@ font-weight: normal;
 color: #fff;
 }
 
+/* ads */
+#ads_header {
+text-align:center;
+padding-bottom: 20px;
+}
+
 #content_wrapper {
 padding-top: 40px;
 }
