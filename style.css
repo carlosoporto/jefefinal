@@ -1,0 +1,53 @@
+#header_wrapper {
+height: 36px;
+background-color: #1b1b1b;
+padding: 2px 0px 2px 0px;
+}
+
+#header #logo a {
+color: #fff;
+}
+
+#header #menu > ul.nav > li > a {
+font-weight: normal;
+color: #bbb;
+padding: 0px 15px 0px;
+}
+
+#header #menu > ul.nav > li > a:hover {
+color: #fff;
+}
+
+#header #menu > ul.nav > li.active > a {
+font-weight: normal;
+color: #fff;
+}
+
+#content_wrapper {
+padding-top: 40px;
+}
+
+.modal {
+border: 0px solid #999;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}
+
+.modal-backdrop {
+overflow-x: hidden;
+overflow-y: auto;
+background-color: 
+rgba(255, 255, 255, 0.8);
+}
+
+.modal-backdrop {
+overflow-x: hidden;
+overflow-y: auto;
+background-color: 
+rgba(255, 255, 255, 0.8);
+}
+
+.close {
+display: none!important;
+}
