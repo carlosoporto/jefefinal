@@ -30,15 +30,6 @@
       "order": null
     },
     {
-      "file": "destacados.html",
-      "name": "destacados",
-      "title": "Destacados",
-      "url": "destacados",
-      "homepage": true,
-      "mainmenu": true,
-      "order": 4
-    },
-    {
       "file": "following.html",
       "name": "following",
       "title": "Following",
@@ -82,6 +73,15 @@
       "homepage": false,
       "mainmenu": false,
       "order": null
+    },
+    {
+      "file": "gamers.html",
+      "name": "gamers",
+      "title": "Gamers",
+      "url": "gamers",
+      "homepage": false,
+      "mainmenu": true,
+      "order": 6
     },
     {
       "file": "header-private.html",
@@ -145,6 +145,15 @@
       "homepage": false,
       "mainmenu": false,
       "order": null
+    },
+    {
+      "file": "mejores.html",
+      "name": "mejores",
+      "title": "Mejores",
+      "url": "mejores",
+      "homepage": true,
+      "mainmenu": true,
+      "order": 4
     },
     {
       "file": "members.html",
