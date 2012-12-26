@@ -25,6 +25,10 @@ font-weight: normal;
 color: #fff;
 }
 
+#content {
+margin: 0px;
+}
+
 /* ads */
 #ads_header {
 text-align:center;
@@ -78,4 +82,46 @@ text-align: center;
 /* domains */
 .posts .post_domain > a {
 display: none;
+}
+
+/* sidebar posts */
+
+.social_follow {
+padding: 12px 15px 15px;
+border: 1px solid #ddd;
+width: 268px;
+background-color: #fff;
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.facebook_follow {
+padding-top: 7px;
+padding-bottom: 5px;
+}
+
+.twitter_follow {
+padding-top: 7px;
+padding-bottom: 5px;
+border-top: 1px solid #ddd;
+}
+
+.other_follow {
+padding-top: 7px;
+padding-bottom: 5px;
+border-top: 1px solid #ddd;
+}
+
+.other_follow h4 {
+line-height: 28px;
+float: left;
+margin-right: 15px;
+}
+
+.other_follow a {
+display: inline-block;
+margin-right: 10px;
+}
+
+#page_post .gutter {
+width: auto;
 }
