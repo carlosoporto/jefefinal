@@ -1,3 +1,8 @@
+/* header */
+#header {
+width: 85%;
+}
+
 #header_wrapper {
 height: 36px;
 background-color: #1b1b1b;
@@ -23,6 +28,10 @@ color: #fff;
 #header #menu > ul.nav > li.active > a {
 font-weight: normal;
 color: #fff;
+}
+
+.icon-flag {
+background-position: -48px -144px;
 }
 
 #content {
@@ -86,6 +95,65 @@ display: none;
 
 
 /* post content */
+#post_info {
+background-color: #222;
+color: #fff;
+}
+
+#page_post .post_options, #item_gallery .post_options {
+padding: 0px 20px 20px 20px;
+font-size: 11px;
+}
+
+#page_post .post_content, #item_gallery .post_content {
+padding: 0px;
+}
+
+#page_post .post_title, #item_gallery .post_title {
+font-size: 22px;
+color: #fff;
+padding: 20px 20px 0px 20px;
+margin-bottom: 0px;
+}
+
+
+#page_post .post_title a, a #item_gallery .post_title a {
+color: #fff;
+}
+
+#page_post .post_domain > a, #item_gallery .post_domain > a {
+color: #999;
+font-size: 13px;
+}
+
+
+#page_post .post_photo, #item_gallery .post_photo {
+background-color: #fff;
+}
+
+#page_post .post_media, #item_gallery .post_media {
+padding: 60px 20px 20px 20px;
+}
+
+#page_post .post_inner2, #item_gallery .post_inner2 {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#page_post .comments, #item_gallery .comments {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#page_post .post_content .likes_list, #item_gallery .post_content .likes_list {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#page_post .comments .comment_options, #item_gallery .comments .comment_options {
+margin-top: 0px;
+}
+
 #post-control-bar {
 background-color: 
 #f4f4f4;
@@ -93,7 +161,7 @@ box-shadow: 0 0 0 1px #fff inset, 0 1px 0 rgba(0,0,0,0.15);
 -moz-box-shadow: 0 0 0 1px #fff inset, 0 1px 0 rgba(0,0,0,0.15);
 -webkit-box-shadow: 0 0 0 1px #fff inset, 0 1px 0 rgba(0,0,0,0.15);
 height: 41px;
-min-width: 720px;
+min-width: 745px;
 margin-bottom: -42px;
 z-index: 3;
 position: absolute;
@@ -118,6 +186,11 @@ display: inline;
 .spread-bar li {
 float: left;
 margin-right: 10px;
+}
+
+/* comments posts */
+#page_post .comments .comment_options, #item_gallery .comments .comment_options {
+display: none;
 }
 
 /* sidebar posts */
@@ -160,4 +233,9 @@ margin-right: 10px;
 
 #page_post .gutter {
 width: auto;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+display: inline-block;
+width: 14px;
 }

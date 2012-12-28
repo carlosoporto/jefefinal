@@ -24,13 +24,6 @@
             <a href="http://www.youtube.com/jefefinal" target="_blank" onclick="GAG.Track.event('social', 'ig.f');"><img src="http://se5revolution.s3.amazonaws.com/uploads/994/27696.png" alt="Sigue a JefeFinal en Youtube"></a>
           </div>
         </div>
-        <div class="post_author">
-          <div class="post_author_info">
-            <script type="x-engine/func" data-func="member-photo" data-thumb="true"></script>
-            <script type="x-engine/func" data-func="member-name"></script>
-            <script type="x-engine/func" data-func="follow-button"></script>
-          </div>
-        </div>
       </div>      
         <div id="ads_post_sidebar">
           <!--ads_post_sidebar-->
@@ -38,7 +31,10 @@
     </div>
     <div class="main">
       <div class="post_content">
-        <script type="x-engine/func" data-func="post-title"></script>
+        	<div id="post_info">
+        		<script type="x-engine/func" data-func="post-title"></script>
+        		<script type="x-engine/func" data-func="post-options"></script>
+        	</div>
         <div id="post-control-bar" class="spread-bar-wrap">
     		<ul class="spread-bar">
               <li>
@@ -54,12 +50,10 @@
               
        	</ul>
 	</div>
-        
       	<script type="x-engine/func" data-func="post-media"></script>
         <script type="x-engine/func" data-func="post-reaction" data-show-if="vote"></script>
         <div class="post_inner2">
           <script type="x-engine/func" data-func="post-body"></script>
-          <script type="x-engine/func" data-func="post-options"></script>
         </div>
         <script type="x-engine/func" data-func="post-reaction" data-show-if="like"></script>
 		<script type="x-engine/func" data-func="post-comments"></script>
