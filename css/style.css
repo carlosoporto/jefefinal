@@ -277,6 +277,10 @@ padding-left: 30px;
 line-height: 1.2em;
 }
 
+div.addthis-content-footer {
+display: none;
+}
+
 /* profile */
 
 #page_profile .profile .member_stats > li {
