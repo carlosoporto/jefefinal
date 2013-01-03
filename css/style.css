@@ -169,6 +169,17 @@ z-index: 3;
 position: absolute;
 }
 
+#post-control-bar-below {
+background-color: 
+#f4f4f4;
+box-shadow: 0 0 0 1px #fff inset, 0 1px 0 rgba(0,0,0,0.15);
+-moz-box-shadow: 0 0 0 1px #fff inset, 0 1px 0 rgba(0,0,0,0.15);
+-webkit-box-shadow: 0 0 0 1px #fff inset, 0 1px 0 rgba(0,0,0,0.15);
+height: 41px;
+min-width: 745px;
+z-index: 3;
+}
+
 #page_post .post_media, #item_gallery .post_media {
 padding-top: 60px;
 }
