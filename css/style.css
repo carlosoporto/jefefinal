@@ -38,6 +38,13 @@ background-position: -48px -144px;
 margin: 0px;
 }
 
+/* home */
+.posts .comments {
+background-color: 
+#F2F2F0;
+display: none;
+}
+
 /* ads */
 #ads_header {
 text-align:center;
@@ -231,23 +238,6 @@ padding-bottom: 5px;
 padding-top: 7px;
 padding-bottom: 5px;
 border-top: 1px solid #ddd;
-}
-
-.other_follow {
-padding-top: 7px;
-padding-bottom: 5px;
-border-top: 1px solid #ddd;
-}
-
-.other_follow h4 {
-line-height: 28px;
-float: left;
-margin-right: 15px;
-}
-
-.other_follow a {
-display: inline-block;
-margin-right: 10px;
 }
 
 #page_post .gutter {
