@@ -180,10 +180,6 @@ min-width: 745px;
 z-index: 3;
 }
 
-#page_post .post_media, #item_gallery .post_media {
-padding-top: 60px;
-}
-
 .spread-bar {
 width: auto;
 height: 20px;
@@ -204,6 +200,16 @@ margin-right: 10px;
 /* comments posts */
 #page_post .comments .comment_options, #item_gallery .comments .comment_options {
 display: none;
+}
+
+#page_post .comments_compose_input textarea, #item_gallery .comments_compose_input textarea {
+font-size: 18px;
+}
+
+/* posts video */
+
+#page_post .post_media, #item_gallery .post_media {
+padding: 41px 0 0 0;
 }
 
 /* sidebar posts */
