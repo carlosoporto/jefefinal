@@ -162,7 +162,7 @@ background-color:
 box-shadow: 0 0 0 1px #fff inset, 0 1px 0 rgba(0,0,0,0.15);
 -moz-box-shadow: 0 0 0 1px #fff inset, 0 1px 0 rgba(0,0,0,0.15);
 -webkit-box-shadow: 0 0 0 1px #fff inset, 0 1px 0 rgba(0,0,0,0.15);
-height: 41px;
+height: 80px;
 min-width: 745px;
 margin-bottom: -42px;
 z-index: 3;
@@ -209,7 +209,7 @@ font-size: 18px;
 /* posts video */
 
 #page_post .post_media, #item_gallery .post_media {
-padding: 41px 0 0 0;
+padding: 80px 0 0 0;
 }
 
 /* sidebar posts */
@@ -291,4 +291,10 @@ display: none;
 
 #page_profile .profile .member_stats > li {
 font-size: 16px;
+}
+
+#page_profile .profile .member_stats {
+overflow: hidden;
+margin-top: 15px;
+display: none;
 }

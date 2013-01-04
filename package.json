@@ -12,15 +12,6 @@
   "preset": "board",
   "files": [
     {
-      "file": "buscar.html",
-      "name": "buscar",
-      "title": "Buscar",
-      "url": "buscar",
-      "homepage": false,
-      "mainmenu": false,
-      "order": null
-    },
-    {
       "file": "categories.html",
       "name": "categories",
       "title": "Categories",
@@ -35,8 +26,8 @@
       "title": "Following",
       "url": "following",
       "homepage": false,
-      "mainmenu": false,
-      "order": null
+      "mainmenu": true,
+      "order": 1
     },
     {
       "file": "footer-private.html",
@@ -147,15 +138,6 @@
       "order": null
     },
     {
-      "file": "mejores.html",
-      "name": "mejores",
-      "title": "Mejores",
-      "url": "mejores",
-      "homepage": true,
-      "mainmenu": true,
-      "order": 4
-    },
-    {
       "file": "members.html",
       "name": "members",
       "title": "Members",
@@ -170,35 +152,17 @@
       "title": "New",
       "url": "new",
       "homepage": false,
-      "mainmenu": false,
-      "order": null
+      "mainmenu": true,
+      "order": 3
     },
     {
       "file": "not-found.html",
       "name": "not-found",
       "title": "Not Found",
-      "url": "error\/404",
+      "url": "error-404",
       "homepage": false,
       "mainmenu": false,
       "order": null
-    },
-    {
-      "file": "nuevos.html",
-      "name": "nuevos",
-      "title": "Nuevos",
-      "url": "nuevos",
-      "homepage": false,
-      "mainmenu": true,
-      "order": 2
-    },
-    {
-      "file": "populares.html",
-      "name": "populares",
-      "title": "Populares",
-      "url": "populares",
-      "homepage": false,
-      "mainmenu": true,
-      "order": 5
     },
     {
       "file": "post.html",
@@ -255,15 +219,6 @@
       "order": null
     },
     {
-      "file": "siguiendo.html",
-      "name": "siguiendo",
-      "title": "Siguiendo",
-      "url": "siguiendo",
-      "homepage": false,
-      "mainmenu": true,
-      "order": 1
-    },
-    {
       "file": "tags.html",
       "name": "tags",
       "title": "Tags",
@@ -284,11 +239,11 @@
     {
       "file": "top.html",
       "name": "top",
-      "title": "Top Rated",
+      "title": "Top",
       "url": "top",
-      "homepage": false,
-      "mainmenu": false,
-      "order": null
+      "homepage": true,
+      "mainmenu": true,
+      "order": 5
     },
     {
       "file": "wall.html",
