@@ -72,7 +72,7 @@
       "url": "gamers",
       "homepage": false,
       "mainmenu": true,
-      "order": 6
+      "order": 5
     },
     {
       "file": "header-private.html",
@@ -153,7 +153,7 @@
       "url": "new",
       "homepage": false,
       "mainmenu": true,
-      "order": 3
+      "order": 4
     },
     {
       "file": "not-found.html",
@@ -243,7 +243,7 @@
       "url": "top",
       "homepage": true,
       "mainmenu": true,
-      "order": 5
+      "order": 3
     },
     {
       "file": "wall.html",
