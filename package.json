@@ -12,6 +12,15 @@
   "preset": "board",
   "files": [
     {
+      "file": "best.html",
+      "name": "best",
+      "title": "Hot",
+      "url": "best",
+      "homepage": false,
+      "mainmenu": false,
+      "order": null
+    },
+    {
       "file": "categories.html",
       "name": "categories",
       "title": "Categories",
