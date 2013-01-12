@@ -26,8 +26,8 @@
       "title": "Categories",
       "url": "categories",
       "homepage": false,
-      "mainmenu": false,
-      "order": null
+      "mainmenu": true,
+      "order": 1
     },
     {
       "file": "following.html",
@@ -36,7 +36,7 @@
       "url": "following",
       "homepage": false,
       "mainmenu": true,
-      "order": 1
+      "order": 4
     },
     {
       "file": "footer-private.html",
@@ -161,8 +161,8 @@
       "title": "New",
       "url": "new",
       "homepage": false,
-      "mainmenu": true,
-      "order": 4
+      "mainmenu": false,
+      "order": null
     },
     {
       "file": "not-found.html",
@@ -248,9 +248,18 @@
     {
       "file": "top.html",
       "name": "top",
-      "title": "Top",
+      "title": "Video Game Community",
       "url": "top",
       "homepage": true,
+      "mainmenu": false,
+      "order": null
+    },
+    {
+      "file": "vote.html",
+      "name": "vote",
+      "title": "Vote",
+      "url": "vote",
+      "homepage": false,
       "mainmenu": true,
       "order": 3
     },

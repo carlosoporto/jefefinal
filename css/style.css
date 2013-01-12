@@ -41,14 +41,12 @@ margin: 0px;
 
 /* home */
 .posts .comments {
-background-color: 
-#F2F2F0;
-display: none;
+background-color: #F2F2F0;
 }
 
 .posts .post_inner3 {
 padding: 10px;
-height: 65px;
+height: auto;
 }
 
 /* ads */
@@ -333,7 +331,22 @@ float: left;
 float: left;
 }
 
-/* Compose Post */
-.composer .composer-nav {
-display: none;
+/* Icons */
+.caret {
+display: inline-block;
+width: 0;
+height: 0;
+vertical-align: top;
+border-top: 4px solid #555;
+border-right: 4px solid 
+transparent;
+border-left: 4px solid 
+transparent;
+content: "";
+opacity: 0.3;
+filter: alpha(opacity=30);
+}
+
+[class^="icon-"], [class*=" icon-"] {
+background-image: url("http://se5revolution.s3.amazonaws.com/uploads/994/37761.png");
 }
