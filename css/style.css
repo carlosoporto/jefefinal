@@ -39,6 +39,14 @@ background-position: -48px -144px;
 margin: 0px;
 }
 
+#header #menu > ul.nav > li.dropdown .dropdown-menu li > a {
+font-size: .9em;
+}
+
+ul.nav li.dropdown .dropdown-menu {
+margin-top: -2px;
+}
+
 /* home */
 .posts .comments {
 background-color: #F2F2F0;
@@ -107,6 +115,19 @@ display: none;
 
 
 /* post content */
+#content_wrapper {
+margin-right: 60px;
+}
+
+#content {
+width: 100%;
+}
+
+#page_post {
+width: 900px;
+padding-right: 60px;
+}
+
 #post_info {
 background-color: #222;
 color: #fff;
@@ -150,7 +171,15 @@ padding: 60px 20px 20px 20px;
 #page_post .post_inner2, #item_gallery .post_inner2 {
 padding-left: 20px;
 padding-right: 20px;
+margin-top: 20px;
 }
+
+#page_post .post_body, #item_gallery .post_body {
+margin-bottom: 20px;
+font-size: 16px;
+line-height: 24px;
+}
+
 
 #page_post .comments, #item_gallery .comments {
 padding-left: 20px;
@@ -214,7 +243,16 @@ display: none;
 }
 
 #page_post .comments_compose_input textarea, #item_gallery .comments_compose_input textarea {
-font-size: 18px;
+font-size: 16px;
+}
+
+#page_post .comments .comment_content_body, #item_gallery .comments .comment_content_body {
+font-size: 14px;
+}
+
+.mention {
+color: 
+#0088cc;
 }
 
 /* posts video */
