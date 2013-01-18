@@ -12,15 +12,6 @@
   "preset": "board",
   "files": [
     {
-      "file": "best.html",
-      "name": "best",
-      "title": "Hot",
-      "url": "best",
-      "homepage": false,
-      "mainmenu": false,
-      "order": null
-    },
-    {
       "file": "categories.html",
       "name": "categories",
       "title": "Categories",
@@ -61,15 +52,6 @@
       "name": "gallery",
       "title": "Gallery Viewer",
       "url": "",
-      "homepage": false,
-      "mainmenu": false,
-      "order": null
-    },
-    {
-      "file": "gamer.html",
-      "name": "gamer",
-      "title": "gamer",
-      "url": "gamer",
       "homepage": false,
       "mainmenu": false,
       "order": null

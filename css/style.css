@@ -47,6 +47,10 @@ ul.nav li.dropdown .dropdown-menu {
 margin-top: -2px;
 }
 
+.category_count {
+display: none;
+}
+
 /* home */
 .posts .comments {
 background-color: #F2F2F0;
@@ -54,6 +58,11 @@ background-color: #F2F2F0;
 
 .posts .post_inner3 {
 padding: 10px;
+height: auto;
+}
+
+.posts .post_photo img {
+max-width: auto;
 height: auto;
 }
 
@@ -135,7 +144,7 @@ color: #fff;
 
 #page_post .post_options, #item_gallery .post_options {
 padding: 0px 20px 20px 20px;
-font-size: 11px;
+font-size: 14px;
 }
 
 #page_post .post_content, #item_gallery .post_content {
@@ -237,11 +246,11 @@ float: left;
 margin-right: 10px;
 }
 
-/* comments posts */
-#page_post .comments .comment_options, #item_gallery .comments .comment_options {
+.watch {
 display: none;
 }
 
+/* comments posts */
 #page_post .comments_compose_input textarea, #item_gallery .comments_compose_input textarea {
 font-size: 16px;
 }
@@ -386,5 +395,122 @@ filter: alpha(opacity=30);
 }
 
 [class^="icon-"], [class*=" icon-"] {
-background-image: url("http://se5revolution.s3.amazonaws.com/uploads/994/37761.png");
+background-image: url("http://se5revolution.s3.amazonaws.com/uploads/994/38781.png");
+}
+
+/* Alerts */
+.alert-info {
+margin-left: 120px;
+width: 900px;
+}
+
+/* Buttons */
+input.input-xlarge, textarea.input-xlarge, select {
+font-size: 18px;
+
+}
+
+.modal .controls input.input-xlarge, .modal .controls textarea.input-xlarge {
+font-size: 16px;
+}
+
+abel, input, button, select, textarea {
+font-size: 16px;
+font-weight: normal;
+line-height: 18px;
+}
+
+.composer .composer-nav li a {
+font-size: 18px;
+}
+  
+label, input, button, select, textarea {
+font-size: 16px;
+}
+
+select.input-xlarge {
+height: 30px;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+font-size: 16px;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+margin-bottom: 0px;
+}
+
+/* Votes */
+#page_post .post_options .post_vote a, #item_gallery .post_options .post_vote a {
+color: #fff;
+font-size: 18px;
+}
+
+#page_post .post_options .post_vote a.active span, #item_gallery .post_options .post_vote a.active span {
+color: #fff;
+font-weight: bold;
+}
+
+.icon-chevron-down {
+background-position: -310px -97px;
+}
+
+.icon-chevron-up {
+background-position: -288px -97px;
+}
+
+#page_post .post_options .post_vote a.active i, #item_gallery .post_options .post_vote a.active i {
+color: #fff;  
+opacity: 1; 
+}
+
+#page_post .post_options .post_vote a hover, #item_gallery .post_options .post_vote a hover {
+color: #fff;
+}
+
+#page_post .post_options .post_vote a i, #item_gallery .post_options .post_vote a i {
+color: #fff;
+opacity: 2;
+margin-left: 2px;
+}
+
+#page_post .post_options .post_vote a.hover i, #item_gallery .post_options .post_vote a.hover i {
+color: #fff;
+opacity: 1;
+margin-left: 2px;
+}
+
+.num.score_up {
+color: #fff; 
+}
+
+.num.score_down {
+color: #fff; 
+}
+
+/* lists */
+
+#page_list .list-info ul > li {
+font-size: 12pt;
+}
+
+#page_profile ul.lists > li, #page_post div.list_navigation {
+float: none;
+}
+
+#page_profile ul.lists > li, #page_post div.list_navigation {
+background-color: #FFFFFF;
+border: 1px solid #DDDDDD;
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+float: left;
+margin: 0 15px 15px 0;
+width: 268px;
+padding: 12px 15px 15px;
+text-align: center;
+}
+
+#page_profile ul.list-items li:first-child, #page_post div.list_navigation li:first-child {
+height: 100%;
+width: 100%;
 }
